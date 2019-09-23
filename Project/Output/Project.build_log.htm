@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xiyu zxy4970, x, LIC=W962Z-J5LAE-RD7K3-AGPGF-S54I5-FMTT7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      UL2CM3.DLL V1.160.12.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+C:\Users\zxy49\Desktop\A18\A17\A\Project\Project.uvproj
+Project File Date:  07/23/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Open407I-C'
+compiling main.c...
+..\User\AD7176Z.h(28): warning:  #1295-D: Deprecated declaration AD7176_Read_ID - give arg types
+  void AD7176_Read_ID();
+..\User\main.c(121): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  		GUI_Text(120,30,strf,Black,White);
+..\User\main.c(135): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  				fft_inputbuf[2*i]= (float)(adcd[i]/1677.7216)-5000.0;   //生成输入信号实部
+..\User\main.c(285): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  		GUI_Text(120,30,strf,Black,White);
+..\User\main.c(294): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  				fft_inputbuf[2*i]= ((float)(adcd[i]/1677.7216)-5000.0);   //生成输入信号实部
+..\User\main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=33522 RO-data=38518 RW-data=124 ZI-data=67412  
+FromELF: creating hex file...
+".\Output\Project.axf" - 0 Error(s), 5 Warning(s).
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
